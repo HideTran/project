@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+</head>
+<style>
+    body{
+        text-align: center;
+    }
+    label {
+        display: inline-block;
+        min-width: 150px;
+    }
+</style>
+<body>
+    <h1>Register Page</h1>
+    <form id="form_register" onsubmit="register(event)">
+        <div>
+            <label for="">Email:</label>
+            <input name="email" required type="text">
+        </div>
+        <div>
+            <label for="">Mật khẩu:</label>
+            <input name="password" type="password">
+        </div>
+        <div>
+            <label for="">Nhập lại mật khẩu:</label>
+            <input name="confirm_password" type="password">
+        </div>
+        <div>
+            <label for="">Số điện thoại:</label>
+            <input name="phone_number" type="text">
+        </div>
+        <div>
+            <label for="">Địa chỉ:</label>
+            <input name="address" type="text">
+        </div>
+        <button type="submit">Đăng ký</button>
+    </form>
+    <script src="./register.js"></script>
+</body>
+</html>

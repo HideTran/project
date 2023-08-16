@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<style>
+    label{
+        display: inline-block;
+        min-width: 120px;
+    }
+</style>
+<body>
+    <h1>Đây là trang đăng nhập!</h1>
+    <form onsubmit="login(event)">
+        <div>
+            <label for="">Email:</label>
+            <input name="email" required type="text">
+        </div>
+        <div>
+            <label for="">Password:</label>
+            <input name="password" type="password">
+        </div>
+        <button>Login</button><br>
+        <a href="./register.html">Nếu chưa có tài khoản, đăng ký ngay!</a>
+    </form>
+    <script src="./login.js"></script>
+</body>
+
+</html>

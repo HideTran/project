@@ -1,0 +1,65 @@
+body {
+    width: 100%;
+}
+
+.header {
+    height: 120px;
+    justify-content: center;
+    background-color: rgb(228, 242, 244);
+    position: sticky;
+    top: 0;
+}
+
+.header_content {
+    width: 100%;
+    height: 50%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_logo_icon {
+    font-size: 40px;
+    color: red;
+}
+
+.header_logo_brand {
+    font-size: 35px;
+    font-weight: 900px;
+    color: red;
+
+}
+
+.header_other {
+    width: 40%px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout{
+    cursor: pointer;
+}
+
+.header_cart {
+    font-size: 30px;
+    color: blue;
+    cursor: pointer;
+}
+
+
+.header_navbar{
+    height: 50%;
+    background-color: white;
+
+}
+
